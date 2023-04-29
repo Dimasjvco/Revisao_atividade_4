@@ -16,7 +16,6 @@ class RevisaoExUm {
     System.out.println("\nInforme a sua idade: ");
     idade = scanner.nextInt();
 
-    // Começo as perguntas de sim e nao
     do {
       System.out.println("\nSeu cartão de vacina está em dia? Digite SIM ou NAO ?");
       cartaoVacinaEmDia = scanner.next().toUpperCase();
